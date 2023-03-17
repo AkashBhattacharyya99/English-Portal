@@ -1,0 +1,13 @@
+.nav-bar{
+    display: flex;
+    background-color: rgb(194, 194, 190);
+    color: black;
+    width: 100%;
+}
+.nav-bar h3{
+    margin: 0 5px;
+    padding: 10px;
+}
+.nav-bar .nav-link{
+    text-decoration: none;
+}
