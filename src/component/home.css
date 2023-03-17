@@ -1,0 +1,18 @@
+.home{
+    width: 100vw;
+    display: flex;
+}
+.home .home-aside{
+    width: 17%;
+    border-right: 1px solid black;
+}
+.home .home-contant{
+  padding: 10px;
+  display: flex;
+  width: 70%;
+  justify-content: center;
+}
+.home-right-aside{
+    width: 15%;
+    border-left: 1px solid black;
+}
