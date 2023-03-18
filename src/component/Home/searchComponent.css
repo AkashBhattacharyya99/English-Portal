@@ -100,7 +100,7 @@ margin: 0 auto 6rem;
     left: 0;
     height: 100%;
     width: 51%;
-    background: #a9c2c1;
+    background: #cea8f8;
     transform: skew(0deg, 6deg);
   }
   #chevron:after {
@@ -110,7 +110,7 @@ margin: 0 auto 6rem;
     right: 0;
     height: 100%;
     width: 50%;
-    background: #a9c2c1;
+    background: #cea8f8;
     transform: skew(0deg, -6deg);
   }
 

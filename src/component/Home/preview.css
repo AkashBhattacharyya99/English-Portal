@@ -2,16 +2,19 @@
 min-height: 90vh;
 /* border: 1px solid black; */
 position: relative;
-margin-top: 20px;
+/* margin-top: 20px; */
 }
 #first{
-    background-color:  #a9c2c1;
+    background-color:  #6e31b0;
+    background-image: linear-gradient(#cea8f8, #6e31b0);
 }
 #second{
-    background-color: rgb(227, 218, 165);
+    background-color: #282c34;
+    background-image: linear-gradient(#50545d, #282c34);
 }
 #third{
     background-color: rgb(142, 192, 192);
+    background-image: linear-gradient(rgb(7, 86, 86), rgb(142, 192, 192));
 }
 .preview .card1{
 height: 20rem;
@@ -21,7 +24,7 @@ position: relative;
 top: 8rem;
 left: 9rem;
 z-index: 1;
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 border-radius: 20px;
 background-color: #be6ca1;
 color: black;
@@ -36,6 +39,6 @@ color: black;
     top: 2rem;
     left: 27rem;
     color: black;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: #fff;
 }

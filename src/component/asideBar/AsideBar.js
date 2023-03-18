@@ -3,7 +3,7 @@ import './asidebar.css'
 
 const AsideBar = () => {
   return (
-    <div className='Asidebar'>AsideBar</div>
+    <div className='Asidebar'>ADVERTISEMENT</div>
   )
 }
 
