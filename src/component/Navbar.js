@@ -13,10 +13,10 @@ function Navbar() {
       })} >Home</NavLink></h3>
       <h3 onMouseEnter={() => setDropdown(true)}
         onMouseLeave={() => setDropdown(false)}
-      ><NavLink className='nav-link' exact to='/about' style={({ isActive }) => ({
+      ><NavLink className='nav-link' exact to='/markating' style={({ isActive }) => ({
         color: isActive ? 'red' : 'black',
         fontWeight: isActive ? 'bold' : '',
-      })}>About</NavLink>{dropdown && <Dropdown />}</h3>
+      })}>Topic</NavLink>{dropdown && <Dropdown />}</h3>
       <h3><NavLink className='nav-link' to='/contactus' exact style={({ isActive }) => ({
         color: isActive ? 'red' : 'black',
         fontWeight: isActive ? 'bold' : '',

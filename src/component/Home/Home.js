@@ -1,15 +1,16 @@
 import React from 'react'
-import AsideBar from './asideBar/AsideBar'
+import AsideBar from '../asideBar/AsideBar'
 import './home.css'
+import SearchComponent from './SearchComponent'
 
 function Home() {
   return (
     <div className='home'>
-      <div className='home-aside'>
+      {/* <div className='home-aside'>
         <AsideBar />
-      </div>
+      </div> */}
       <div className='home-contant'>
-        <h2>Wellcome To Home Page</h2>
+        <SearchComponent/>
       </div>
       <div className='home-right-aside'>
         <AsideBar />
