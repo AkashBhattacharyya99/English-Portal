@@ -1,6 +1,7 @@
 import React from 'react'
 import './searchComponent.css'
 import search from '../../image/search-icon.png'
+import Preview from './Preview'
 
 const SearchComponent = () => {
   return (
@@ -15,13 +16,17 @@ const SearchComponent = () => {
         <input type='search' placeholder='e.g. Tense'></input>
         <button><img src={search} height='15' width='15' /></button>
       </div>
-      <div className='lower-sec'>
+      <Preview/>
+      <Preview/>
+      <Preview/>
+
+      {/* <div className='lower-sec'>
       <div className='ocean'>
         <div className='wave'>
 
         </div>
       </div>
-      </div>
+      </div> */}
     </div>
   )
 }

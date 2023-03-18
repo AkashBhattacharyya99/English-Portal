@@ -1,0 +1,26 @@
+.preview{
+min-height: 90vh;
+border: 1px solid black;
+position: relative;
+
+}
+.preview .card1{
+height: 20rem;
+width: 35rem;
+border: 1px solid red;
+float: left;
+position: relative;
+top: 8rem;
+left: 10rem;
+z-index: 1;
+}
+.preview .card2{
+    height: 22rem;
+    width: 35rem;
+    border: 1px solid red;
+    position: absolute;
+    top: 2rem;
+    left: 27rem;
+    background-color: white;
+    color: black;
+}

@@ -7,9 +7,8 @@
     border-right: 1px solid black;
 }
 .home .home-contant{
-  padding: 10px;
   display: flex;
-  width: 85%;
+  width: 100%;
   justify-content: center;
 }
 .home-right-aside{
