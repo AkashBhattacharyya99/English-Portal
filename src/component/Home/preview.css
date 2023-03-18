@@ -25,20 +25,33 @@ top: 8rem;
 left: 9rem;
 z-index: 1;
 box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-border-radius: 20px;
-background-color: #be6ca1;
+border-radius: 10px;
+background-color: #c0c098;
 color: black;
 }
 .preview .card2{
-    border-radius: 20px;
+    border-radius: 10px;
     height: 22rem;
     width: 35rem;
     position: absolute;
     display: flex;
-    flex-basis: 1;
+    justify-content: space-evenly;
     top: 2rem;
     left: 27rem;
     color: black;
     box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: #fff;
+    background-color: #afacad;
+}
+
+.preview .btn-primary{
+    background-color: #6B00DD;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    padding: 5px;
+    cursor: pointer;
+}
+.preview .btn-primary:hover{
+    background-color: #7a29d2;
 }

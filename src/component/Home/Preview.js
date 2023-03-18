@@ -13,6 +13,7 @@ function Preview(props) {
     <div className='contant'>
       <h2>Example</h2>
       <p>lorem ipsum kdsnjds</p>
+      <button className='btn btn-primary'>Learn More &gt;</button>
       </div>
   </div>
     </div>
