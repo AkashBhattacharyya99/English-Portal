@@ -85,3 +85,33 @@ margin: 0 auto 6rem;
       transform: translate3d(0,5px,0);
     }
   }
+  #chevron {
+    position: relative;
+    text-align: center;
+    padding: 12px;
+    margin-bottom: 6px;
+    height: 100px;
+    width: 97.86%;
+  }
+  #chevron:before {
+    content: '';
+    position: absolute;
+    top: 50px;
+    left: 0;
+    height: 100%;
+    width: 51%;
+    background: #a9c2c1;
+    transform: skew(0deg, 6deg);
+  }
+  #chevron:after {
+    content: '';
+    position: absolute;
+    top: 50px;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    background: #a9c2c1;
+    transform: skew(0deg, -6deg);
+  }
+
+  

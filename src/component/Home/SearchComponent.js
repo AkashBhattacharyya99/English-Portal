@@ -16,9 +16,10 @@ const SearchComponent = () => {
         <input type='search' placeholder='e.g. Tense'></input>
         <button><img src={search} height='15' width='15' /></button>
       </div>
-      <Preview/>
-      <Preview/>
-      <Preview/>
+      <div id='chevron'></div>
+      <Preview id='first'/>
+      <Preview id='second'/>
+      <Preview id='third'/>
 
       {/* <div className='lower-sec'>
       <div className='ocean'>
