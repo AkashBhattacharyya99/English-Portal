@@ -1,5 +1,5 @@
 .preview{
-min-height: 80vh;
+min-height: 88vh;
 /* border: 1px solid black; */
 position: relative;
 /* margin-top: 20px; */
@@ -57,7 +57,7 @@ color: black;
 }
 @media (max-width: 480px) {
   .preview .card1 {
-    height: 32rem;
+    height: 60vh;
     width: 90vw;
     top: 2rem;
     left: 0;
@@ -66,7 +66,7 @@ color: black;
 }
 .preview .card2 {
     display: block;
-    height: 17rem;
+    height: 45vh;
     width: 80vw;
     top: 15rem;
     left: 0;
@@ -75,5 +75,10 @@ color: black;
     z-index: 2;
 
 }
-     
-  }
+ }
+
+  /* @media (min-height: 800px) {
+  .preview {
+    min-height: 68vh;
+}
+    } */
