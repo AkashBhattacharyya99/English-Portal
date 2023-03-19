@@ -4,7 +4,7 @@
     top: 44.5px;
     list-style: none;
     text-align: start;
-    background-color: rgb(194, 194, 190);
+    background-color: rgb(160, 217, 198);
 }
 
 .services-submenu span {
@@ -12,7 +12,7 @@
 }
 
 .services-submenu span a:hover {
-    background-color: rgb(154, 154, 153);
+    background-color: rgb(110, 219, 182);
 }
 
 .services-submenu.clicked {

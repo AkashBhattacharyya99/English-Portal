@@ -1,10 +1,12 @@
 import React from 'react'
 import AsideBar from '../asideBar/AsideBar'
+import Footer from '../footer/Footer'
 import './home.css'
 import SearchComponent from './SearchComponent'
 
 function Home() {
   return (
+    <div>
     <div className='home'>
       {/* <div className='home-aside'>
         <AsideBar />
@@ -15,6 +17,8 @@ function Home() {
       <div className='home-right-aside'>
         <AsideBar />
       </div>
+    </div>
+      <Footer/>
     </div>
   )
 }
