@@ -91,7 +91,7 @@ margin: 0 auto 6rem;
     padding: 12px;
     margin-bottom: 6px;
     height: 100px;
-    width: 97.86%;
+    /* width: 97.86%; */
   }
   #chevron:before {
     content: '';
@@ -114,4 +114,20 @@ margin: 0 auto 6rem;
     transform: skew(0deg, -6deg);
   }
 
+  @media (max-width: 480px) {
+    .search-component .search-main{
+      width: 70vw;
+      }
+      .search-component h1 {
+        font-size: 40px;
+    }
+      .search-component h4{
+        margin-top: 1rem;
+     }
+     .search-component .search-main {
+      margin: 0 auto 1rem;
+  }
+  
+     
+  }
   

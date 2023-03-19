@@ -7,20 +7,20 @@ function Footer() {
             <footer class="footer-distributed">
 
                 <div class="footer-left">
-                    <img src="img/logo.png" />
+                    <img src="img/logo.png" alt=''/>
                     <h3>About<span>Eduonix</span></h3>
 
-                    <p class="footer-links">
-                        <a href="#">Home</a>
+                    <p class="footer-links" >
+                        <a href="/" >Home</a>
                         |
-                        <a href="#">Blog</a>
+                        <a href="/">Blog</a>
                         |
-                        <a href="#">About</a>
+                        <a href="/">About</a>
                         |
-                        <a href="#">Contact</a>
+                        <a href="/">Contact</a>
                     </p>
 
-                    <p class="footer-company-name">© 2019 Eduonix Learning Solutions Pvt. Ltd.</p>
+                    <p class="footer-company-name">© 2023 Englishforever Learning Solutions Pvt. Ltd.</p>
                 </div>
 
                 <div class="footer-center">
@@ -45,11 +45,11 @@ function Footer() {
                         <span>About the company</span>
                         We offer training and skill building courses across Technology, Design, Management, Science and Humanities.</p>
                     <div class="footer-icons">
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-instagram"></i></a>
-                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                        <a href="#"><i class="fa fa-youtube"></i></a>
+                        <a href="/"><i class="fa fa-facebook"></i></a>
+                        <a href="/"><i class="fa fa-twitter"></i></a>
+                        <a href="/"><i class="fa fa-instagram"></i></a>
+                        <a href="/"><i class="fa fa-linkedin"></i></a>
+                        <a href="/"><i class="fa fa-youtube"></i></a>
                     </div>
                 </div>
             </footer>
