@@ -15,7 +15,7 @@ function Home() {
         <SearchComponent/>
       </div>
       <div className='home-right-aside'>
-        <AsideBar />
+        <AsideBar Advertisement="true"/>
       </div>
     </div>
       <Footer/>

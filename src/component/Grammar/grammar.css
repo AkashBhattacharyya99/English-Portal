@@ -1,0 +1,16 @@
+.Grammar {
+    display: flex;
+    width: 100vw
+}
+
+.Grammar .Grammar-leftAside {
+    width: 18%;
+}
+
+.Grammar .Grammar-content {
+    width: 67%;
+}
+
+.Grammar .Grammar-rightAside {
+    width: 15%;
+}

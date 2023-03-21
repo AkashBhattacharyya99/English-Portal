@@ -1,9 +1,10 @@
 import React from 'react'
 import './asidebar.css'
 
-const AsideBar = () => {
+const AsideBar = (Props) => {
+
   return (
-    <div className='Asidebar'>ADVERTISEMENT</div>
+    <div className='Asidebar'></div>
   )
 }
 
